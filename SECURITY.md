@@ -110,7 +110,7 @@ Automatic detection and optional redaction of personally identifiable informatio
 | Email         | `user@domain.com`     | `[EMAIL_REDACTED]` |
 | CPF (Brazil)  | `123.456.789-00`      | `[CPF_REDACTED]`   |
 | CNPJ (Brazil) | `12.345.678/0001-00`  | `[CNPJ_REDACTED]`  |
-| Credit Card   | `4111-1111-1111-1111` | `[CC_REDACTED]`    |
+| Credit Card   | `***REDACTED:payment-card-number***` | `[CC_REDACTED]`    |
 | Phone         | `+55 11 99999-9999`   | `[PHONE_REDACTED]` |
 | SSN (US)      | `123-45-6789`         | `[SSN_REDACTED]`   |
 
