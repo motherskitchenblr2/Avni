@@ -280,3 +280,23 @@ docker-compose.yml.bak
 
 # CLI local cache/state
 .playwright-cli
+
+# --- secrets (managed by repo-guardian) ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa
+id_ed25519
+.secrets
+secrets.json
+credentials.json
+# --- local/tooling noise ---
+Thumbs.db
+*.log
+.vscode/
+__pycache__/
+*.py[cod]
