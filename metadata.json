@@ -1,0 +1,6 @@
+{
+  "name": "OmniRoute",
+  "description": "Unified AI routing, provider management, combo fallback, and token savings on Android",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
